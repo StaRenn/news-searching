@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Link} from "react-router-dom";
 
 export const MainPage = () => {
@@ -9,7 +9,7 @@ export const MainPage = () => {
                 <p className="main-page__welcome-block__text">
                     Welcome to the <a href={"https://github.com/StaRenn"}>StaRen's</a> news searching service
                 </p>
-                <Link className={"main-page__welcome-block__get-started"} to={"/news"}>Get Started</Link>
+                <Link className={"main-page__welcome-block__get-started"} to={localStorage.getItem("authorized") ? "/news": "login"}>Get Started</Link>
             </div>
         </div>
     )
