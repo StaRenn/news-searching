@@ -1,0 +1,43 @@
+.news-card
+  position: relative
+  width: 100%
+  height: auto
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  margin-bottom: 2vh
+  padding-bottom: 2vh
+  border-bottom: 2px solid black
+  font-family: "Roboto", sans-serif
+
+.news-card__title
+  font-weight: 700
+  font-size: 2.5rem
+  margin: 0
+  text-decoration: none
+  color: #0366d6
+  text-align: center
+  width: 100%
+
+.news-card__description
+  width: 100%
+  font-weight: 400
+  font-size: 1.25rem
+
+.news-card__date
+  font-size: 1rem
+  font-weight: 300
+  position: absolute
+  right: 0
+  bottom: -1vh
+
+.news-card__img
+  width: auto
+  height: 300px
+  margin: 1vh 0 1vh 0
+
+@media screen and (max-width: 500px)
+  .news-card__img
+    max-width: 80vw
+    height: auto
