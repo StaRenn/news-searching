@@ -1,5 +1,8 @@
 https://github.com/maxfarseer/tz-webinars/tree/tz-2-react-redux-router-async
 ---
+### Demo: https://dashboard.heroku.com/apps/news-searching-refactor/settings
+### News page works only in localhost due to NewsAPI developers plan restrictions
+---
 ## `npm i`
 ### To install all dependencies
 ---
